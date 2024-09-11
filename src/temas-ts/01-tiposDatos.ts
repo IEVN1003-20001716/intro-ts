@@ -5,9 +5,9 @@ const num3 = 10
 
 
 let sum= num1 +  num2 + num3; 
-let nombre : string
-let num: number
-let activo : boolean
+let nombre : string;
+let num: number;
+let activo : boolean; 
 
 nombre : 'mario'
 num : 32
