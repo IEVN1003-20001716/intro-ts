@@ -13,7 +13,7 @@ class Persona {
 }
 
 let persona: Persona; 
-persona = new Persona('juan', 23);
+persona = new Persona('Luis Aurelio', 22);
 persona.imprimir(); 
 
 class Dado{

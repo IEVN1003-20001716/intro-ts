@@ -17,7 +17,7 @@ console.table(alumno);
 let mascotas=['perro', 'gato', 'perico']
 mascotas[1]='Nuevo gato'; 
 mascotas.push('leon'); 
-console.log(mascotas)
+console.log(mascotas); 
 
 //definiendo un array con dos tipos de datos 
 let tem:(string|number)[]=[]; 

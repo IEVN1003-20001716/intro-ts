@@ -1,42 +1,39 @@
-function sumar(){
+function sumar() {
     let suma = 0; 
 
-    for (let i = 0; 1< 10; i++){
-        suma +=i;
+    for (let i = 0; i < 10; i++) {
+        suma += i;
     }
-    console.log(suma)
+    console.log(suma);
 }
 sumar(); 
 
-function resta(a:number, b:number): number{
-    return a -b; 
+function resta(a: number, b: number): number {
+    return a - b; 
 }
 
-console.log(resta(10,5))
+console.log(resta(10, 5));
 
-interface Mascotas{
-    nombre: String, 
-    edad: number, 
-    raza: string
-    mostrarEdad:()=>void; 
+interface Mascotas {
+    nombre: string; 
+    edad: number; 
+    raza: string;
+    mostrarEdad: () => void; 
 }
 
-let perro: Mascotas ={
+let perro: Mascotas = {
     nombre: 'Fido', 
     edad: 3, 
-    raza: 'Pator Aleman', 
-    mostrarEdad(){
-        console.log('la edad es ${this.edad}')
-        console.log(perro.edad); 
+    raza: 'Pastor Alemán', 
+    mostrarEdad() {
+        console.log(`La edad es ${this.edad}`);
+        console.log(this.edad); 
     }
-}
+};
 
-
-
-function calcular(mascota: Mascotas, x: number): void{
-    mascota.edad+=x; 
+function calcular(mascota: Mascotas, x: number): void {
+    mascota.edad += x; 
     console.log(mascota); 
 }
 
-calcular(perro,4);
-
+calcular(perro, 4);
